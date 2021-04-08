@@ -1,0 +1,28 @@
+html{
+}
+
+body{
+    display:flex;
+    justify-content: space-between;
+    height:100vh;
+}
+.sideDiv{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    justify-content: space-around;
+}
+.horizontal
+{
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-self: center;
+    height: %;
+}
+.squareDiv{
+    display:flex;
+    width: 10vh;
+    height: 10vh;
+    background-color: yellow;
+}

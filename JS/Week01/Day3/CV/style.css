@@ -1,0 +1,18 @@
+body {
+    display:grid;
+    grid-template: 25% 25% 1fr / 32.5% 1fr;
+    background-color: black;
+    height: 100vh;
+}
+#photo1{
+    /* grid-area: 1 / 1 / 2 / 2; */
+    height: 100%;
+    padding-left: 10px;
+}
+#mainDiv{
+    /* grid-area: 2 / 2 /3 /3; */
+    background-color: navy;
+}
+#titleDiv{
+    
+}

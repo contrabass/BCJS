@@ -1,0 +1,24 @@
+#mainDiv{
+    height: 60%;
+    background-image: url('https://images.pexels.com/photos/327434/pexels-photo-327434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: 100%;
+}
+#bottomContainer{
+    display: flex;
+    height:25%;
+    /* background-color: fuchsia; */
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-bottom:5%;    
+}
+.bottomTile{
+    display=flex;
+    float:center;
+    width: 30%;
+    margin: 5% 5% 1% 5%;
+    text-align: center;
+    background-color:aqua;
+}
+.bottomTile > .fas {
+    font-size: 3em;
+}

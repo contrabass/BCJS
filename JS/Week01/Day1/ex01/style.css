@@ -1,0 +1,9 @@
+.colTitle{
+    font-weight: bold;
+    text-align: center;
+}
+
+.columnDiv{
+    float: left;
+    width: 50%;
+} 
