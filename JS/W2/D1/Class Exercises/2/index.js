@@ -1,15 +1,12 @@
+//  1. Store your birth year in a variable.
+let birthYear = 1980;
 
-// 1. Create a numerically indexed table (ie. an array): pets, like this ['cat','dog','fish','rabbit','cow']
-pets = ['cat','dog','fish','rabbit','cow'];
+// 2. Store a future year in a variable.
+let futureYear = 2222;
 
-// 2. Display dog 
-console.log(pets[1]);
-
-// 3. Add to the array pets, the pet horse. Remove the pet rabbit
-pets.splice(3, 1, 'horse')
-
-// 4. Display the array length
-console.log(pets.length);
+// 3. Calculate your possible ages for that year based on the stored values.
+let futureAge = futureYear-birthYear;
 
 
-
+// 4. Display : "I will be NN in YYYY", substituting the values. */
+console.log(`my ages at ${futureYear} might be ${futureAge} or ${futureAge-1}.`);
