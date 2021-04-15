@@ -8,7 +8,6 @@ let maxLength=0;
 for (word of userWords){
     if (maxLength < word.length){maxLength = word.length} 
 }
-console.log(userWords);
 // Console.log the words one per line, in a rectangular frame as seen below.
 console.log(`*`.repeat(maxLength+4));
 for (word of userWords){
