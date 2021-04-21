@@ -5,8 +5,7 @@ In ths exercise you need to console.log the lyrics to the song 99 Bottles of Bee
 
 //Prompt the user for a number to begin counting down bottles.
 let i = 1;
-//let bottles = prompt("How many bottles of beer on the wall?");
-let bottles = 91;
+let bottles = prompt("How many bottles of beer on the wall?");
 /* In the song everytime a bottle falls we subtract the bottles by 1.
 What your code should do is:
 instead of subtracting by 1, everytime a bottle drops the subtracted number should go up by 1

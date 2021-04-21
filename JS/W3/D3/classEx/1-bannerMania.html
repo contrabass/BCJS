@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div id="countdown">"test"</div> -->
+    <!--    Create a new HTML file
+
+    Create a banner saying "The sales end in 10min ! " . 
+    Style the banner and make it visible to the user after 5 sec. -->
+    <script>
+        // window.onload=(onRunFun());
+        // window.onload=onRunFunc() {
+        //     div = document.createElement("div");
+        //     // div.style.display("hidden");
+        //     document.body.appendChild(div);
+        //     div.innerText = ("The sales end in 10min !");
+        // }
+        
+        const countdown = document.getElementById("countdown");
+        let count = 10;
+        let countDown = function () {
+            countdown.textContent = count;
+            if (count == 0) {
+                clearInterval(int)
+            }
+            count--
+        }
+        let int = setInterval(countDown, 500);
+    </script>
+</body>
+
+</html>

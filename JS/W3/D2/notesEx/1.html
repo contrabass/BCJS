@@ -1,0 +1,48 @@
+<html>
+<head></head>
+<body> 
+
+<table id="sampleTable" border="1"> 
+<tr>
+    <td>Row1 cell1</td> 
+    <td>Row1 cell2</td>
+</tr> 
+<tr>
+    <td>Row2 cell1</td> 
+    <td>Row2 cell2</td>
+</tr> 
+</table>
+
+<input type="button" onclick="insert_Row()" value="Insert row">  
+<script>
+    function insert_Row() {
+        
+    }
+</script>
+<!-- <script>
+    function insert_Row(){
+        let target=document.getElementById("sampleTable");
+        // console.log(target);
+        let source = queryselec
+        // document.getElementsByTagName("tr")[0];
+        const re=/(Row)(\d)( cell)(\d)/;
+        for (let i=0; i < 2; i++){
+            let newRow = source.cloneNode(true);
+            console.log(newRow.children[i]);
+            // newRow.children[i].textNode="test";
+
+            // newRow.children[i].textNode.replace(re, "$1X");
+            console.log(newRow.children[i]);
+            target.appendChild(newRow);
+            // newRow.children[i].textNode.replace(re, "X");
+            // let textNode = document.createTextNode("Row"+target.length);
+            // newRow.children[i].textNode="Row"+target.length;
+            // newRow.children[0].appendchild(textNode);
+            // console.log(newRow.children[0].children[0]);            
+        }
+        // newRow.textContent=newRow.textContent.replace(re, 9);
+        // target.appendChild(newRow);
+    }
+</script> -->
+</body>
+</html> 
