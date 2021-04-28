@@ -1,0 +1,33 @@
+/* #main {background-color: gray;} */
+
+/* .canvasPixel{
+    background-color: blue;
+} */
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  font-family: Garamond, serif;
+}
+
+#ui {
+  width: min-content;
+}
+
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+#pad {
+  display: grid;
+  grid-gap: 0;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.pixel {
+  height:3.25px;
+  width:1fr;
+  text-align: center;
+}
