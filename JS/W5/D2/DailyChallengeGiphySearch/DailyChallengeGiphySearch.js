@@ -8,18 +8,20 @@
 
 const searchButton = document.getElementById("searchButton");
 const searchField = document.getElementById("searchField");
+console.log(searchField)
 
 let load = (e) => {
     let XHR = new XMLHttpRequest();
-    console.log(searchField.value)
+    // console.log(searchField.value)
+    // alert(`https://api.giphy.com/v1/gifs/search?q=${searchField.value}&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My`);
+    Break;
     XHR.open("GET", `https://api.giphy.com/v1/gifs/search?q=${searchField.value}&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My`, true);
     XHR.responseType='json';
-    XHR.send();
+    /* XHR.send();
     let robots=[]
     XHR.onload = function () {
         console.log(XHR.response);
-    }
-    
+    } */
 }
 searchButton.addEventListener("click", load)
 

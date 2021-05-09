@@ -1,0 +1,1 @@
+At the beginning calling will be printed to the console. 2 seconds later resolved will be printed.

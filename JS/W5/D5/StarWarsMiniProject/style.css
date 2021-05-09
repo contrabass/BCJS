@@ -1,0 +1,12 @@
+#display{
+    border: 3px solid black;
+    height: 65vh;
+    width: 80vw;
+    color:red;
+}
+#randomizeButton{
+    border: 3px solid black;
+    height: min-content;
+    width: min-content;
+    color:red;
+}

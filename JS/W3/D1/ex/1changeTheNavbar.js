@@ -10,7 +10,7 @@ target.setAttribute("navBar","socialNetworkNavigation");
 let newLi = document.createElement("li");
 // Create a new text node with “Logout” as its specified text.
 let newTextNode = document.createTextNode("Logout");
-// Append the text node to the newly created list node (li).
+// Append o text node to the newly created list node (li).
 newLi.appendChild(newTextNode);
 // Finally, append this updated list node to the unordered list above, using the appendChild method.
 let targetUL = document.getElementsByTagName("ul");
